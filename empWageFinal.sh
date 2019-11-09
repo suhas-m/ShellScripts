@@ -1,9 +1,11 @@
 #!/bin/bash -x
 
 isPresent=1;
-randomCheck=$((RANDOM%2));
 
-if [ $isPresent -eq $randomCheck ];
+employeeCheck=$((RANDOM%2));
+
+if [ $isPresent -eq $employeeCheck ];
+
 then 
         empHrs=8;
 elif [ $isPartTime -eq $randomCheck ];
