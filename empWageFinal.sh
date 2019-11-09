@@ -1,7 +1,8 @@
 #!/bin/bash -x
 empRatePerHr=20
 isPresent=1;
-employeeCheck=$((RANDOM%2));
+isPartTime=2;
+employeeCheck=$((RANDOM%3));
 
 if [ $isPresent -eq $employeeCheck ];
 
