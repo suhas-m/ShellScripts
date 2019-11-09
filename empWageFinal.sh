@@ -1,9 +1,9 @@
 #!/bin/bash -x
 
 isPresent=1;
-randomCheck=$((RANDOM%2));
+employeeCheck=$((RANDOM%2));
 
-if [ $isPresent -eq $randomCheck ];
+if [ $isPresent -eq $employeeCheck ];
 then 
    empRatePerHr=20;
    empHrs=8;
